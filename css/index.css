@@ -22,6 +22,12 @@ div {
   margin-top: 50px;
   margin-bottom: 50px; }
 
+.rca-table {
+  display: table; }
+
+.rca-cell {
+  display: table-cell; }
+
 p {
   margin: 0px; }
 
@@ -105,17 +111,19 @@ button {
 .rca-center {
   text-align: center; }
 
-.rca-vs:before {
-  border-radius: 50%;
-  background-color: #1eb848;
-  color: #fff;
-  width: 30px;
-  height: 30px;
-  display: inline-block;
-  font-size: 16px;
-  vertical-align: middle;
-  content: "vs";
-  line-height: 28px; }
+.rca-vs {
+  vertical-align: middle; }
+  .rca-vs:before {
+    border-radius: 50%;
+    background-color: #1eb848;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    content: "vs";
+    line-height: 28px; }
 
 .rca-left-border {
   border-left: 5px solid #1eb848; }
@@ -293,9 +301,9 @@ button {
     font-size: 12px;
     background-color: #b3b3b3;
     color: #fff; }
-    .rca-ball-by li.rca-wicket {
+    .rca-ball-by li.w {
       background-color: #d91e18; }
-    .rca-ball-by li.rca-six {
+    .rca-ball-by li.b4, .rca-ball-by li.b6 {
       background-color: #1eb848; }
 
 .rca-bowler-info {
@@ -485,12 +493,12 @@ button {
     .rca-history-info .rca-row:last-child .rca-history-title {
       padding-bottom: 30px; }
   .rca-history-info .rca-col {
-    padding: 15px 20px; }
-  .rca-history-info .rca-history-title {
-    min-width: 150px;
     padding: 15px 20px;
-    background: #f2f2f2;
-    display: inline-block; }
+    display: table-cell; }
+  .rca-history-info .rca-history-title {
+    width: 150px;
+    padding: 15px 20px;
+    background: #f2f2f2; }
 
 .rca-team-score {
   font-size: 18px;
@@ -532,9 +540,12 @@ button {
   font-size: 22px;
   font-weight: 300;
   text-align: center;
-  padding: 20px; }
+  padding: 20px;
+  margin: 0 auto; }
   .rca-teams .team {
-    padding: 0px 20px; }
+    padding: 0px 20px;
+    width: 150px;
+    vertical-align: middle; }
 
 .rca-player-detail {
   background-color: #f2f2f2;

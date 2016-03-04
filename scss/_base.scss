@@ -22,6 +22,12 @@ div{
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+.rca-table{
+	display: table;
+}
+.rca-cell{
+	display: table-cell;
+}
 p{
 	margin: 0px;
 }
@@ -110,6 +116,7 @@ button{
 	text-align: center;
 }
 .rca-vs{
+	vertical-align: middle;
 	&:before{
 		border-radius: 50%;
 	    background-color: #1eb848;

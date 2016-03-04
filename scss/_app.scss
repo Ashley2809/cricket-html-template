@@ -218,10 +218,10 @@
 		font-size: 12px;
 		background-color: $basic-info;
 		color: $tab-text;
-		&.rca-wicket{
+		&.w{
 			background-color: $live-info;
 		}
-		&.rca-six{
+		&.b4,&.b6{
 			background-color: $theme-color;
 		}
 	}
@@ -486,12 +486,13 @@
 	}
 	.rca-col{
 		padding: 15px 20px;
+		display: table-cell;
 	}
 	.rca-history-title{
-		min-width: 150px;
+		width: 150px;
 		padding: 15px 20px;
 		background: lighten($body-color , 4.9%);
-		display: inline-block;
+		// display: inline-block;
 	}
 }
 
@@ -543,8 +544,11 @@
 	font-weight: 300;
 	text-align: center;
 	padding: 20px;
+	margin: 0 auto;
 	.team{
 		padding: 0px 20px;
+		width: 150px;
+    	vertical-align: middle;
 	}
 }
 
