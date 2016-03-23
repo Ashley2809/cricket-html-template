@@ -1,5 +1,5 @@
 body {
-	background-color: $body-color;
+	// background-color: $body-color;
 	font-family: "Lato", Verdana, Helvetica, sans-serif;
 	font-size: 14px;
 	color: $text-color;	
@@ -9,9 +9,9 @@ body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-div{
-	overflow: hidden;
-}
+// div{
+// overflow: hidden;
+// }
 .rca-container{
 	width: 100%;
     max-width: 1170px;
@@ -134,22 +134,25 @@ button{
 	min-width: 300px;
 	max-width: 100%;
 	height: 50px;
-	background-color: #fff;
+	background-color: $tab-text;
 	margin: 10px 0px;
 }
 .rca-mini-widget{
 	min-width: 300px;
 	max-width: 100%;
 	min-height: 360px;
-	background-color: #fff;
+	background-color: $tab-text;
 	margin: 10px 0px;
 }
 .rca-medium-widget{
 	min-width: 350px;
 	max-width: 100%;
 	min-height: 425px;
-	background-color: #fff;
-	margin: 10px 0px;
+	background-color: $tab-text;
+	margin: 0;
+}
+.rca-relative{
+	position: relative;
 }
 .rca-right{
 	float: right;
@@ -176,8 +179,8 @@ button{
 	vertical-align: middle;
 	&:before{
 		border-radius: 50%;
-	    background-color: #1eb848;
-	    color: #fff;
+	    background-color: $theme-color;
+	    color: $tab-text;
 	    width: 30px;
 	    height: 30px;
 	    display: inline-block;
@@ -185,5 +188,22 @@ button{
 	    vertical-align: middle;
 	    content: "vs";
         line-height: 28px;
+	}
+}
+.rca-powered{
+	background-color: rgba($tab-border-color, .7);
+	position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 3px;
+    z-index: 99;
+	h2{
+		font-size: 13px;
+		padding: 0 10px 0 0px !important;
+		a{
+			&:hover, &:focus{
+				color: $text-color;
+			}
+		}
 	}
 }

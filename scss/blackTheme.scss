@@ -1,0 +1,33 @@
+$theme-color: #292221;
+$text-color: #4d4d4d;
+$tab-text: #fff;
+$secondary-info: #7d7d7d;
+$basic-info: #b3b3b3;
+$highlight-info: #f9690e;
+$body-color: #E6E6E6;
+$widget-background: #fff;
+$live-info: #d91e18;
+$test-color: #D1F1DA;
+$odi-color: #FEE1CF;
+$t20-color: #DDF4FA;
+$tab-border-color: #f1f1f1;
+
+@import '_base.scss';
+@import '_app.scss';
+@import '_home.scss';
+@import '_responsive.scss';
+
+.rca-medium-widget{
+	.rca-match-title,.rca-match-info, .rca-live-label{
+		text-align: left;
+	}
+}
+.rca-tab-list{
+	li{		
+		border-bottom: 4px solid transparent;
+		&:hover, &:focus,&.active{
+	        color: #d91e18;
+	        border-bottom-color:#d91e18;
+		}
+	}
+}
