@@ -1,5 +1,5 @@
 body {
-	// background-color: $body-color;
+	background-color: $body-color;
 	font-family: "Lato", Verdana, Helvetica, sans-serif;
 	font-size: 14px;
 	color: $text-color;	
@@ -24,6 +24,7 @@ body {
 }
 .rca-table{
 	display: table;
+	width: 100%;
 }
 .rca-cell{
 	display: table-cell;
@@ -149,7 +150,7 @@ button{
 	max-width: 100%;
 	min-height: 425px;
 	background-color: $tab-text;
-	margin: 0;
+	margin: 10px 0;
 }
 .rca-relative{
 	position: relative;
