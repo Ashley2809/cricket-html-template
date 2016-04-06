@@ -6,6 +6,9 @@
 .rca-top-border{
 	border-top: 5px solid $theme-color; 
 }
+.rca-no-padding{
+	padding: 0;
+}
 .rca-padding{
 	padding: 15px 10px;
 	display: block;
@@ -117,18 +120,21 @@
 	}
 	li{
 		display: inline-block;
-		padding: 5px 5px;
 	    font-size: 16px;
 	    font-weight: bold;
 	    color: $theme-color;
 	    line-height: 28px;
 	    text-transform: uppercase;
-	    border-bottom: 4px solid transparent;
 	    cursor: pointer;
 	    margin: 0px 7px 0px 7px;
+    	border-bottom: 4px solid transparent;
+	    a{	    	
+	    	display: block;
+			padding: 5px 5px;
+	    }
 	    &:hover, &:focus, &.active{
-	    	color: $text-color;
-	    	border-bottom-color: $theme-color;
+    		color: $text-color;
+    		border-bottom-color: $theme-color;
 	    }
 		
 	}

@@ -8,11 +8,12 @@ $body-color: #E6E6E6;
 $tab-border-color: #f1f1f1;
 $widget-background: #fff;
 $live-info: #d91e18;
-$test-color: #D1F1DA;
-$odi-color: #FEE1CF;
-$t20-color: #DDF4FA;
+$test-color: #ffebee;
+$odi-color: #fff9c4;
+$t20-color: #E3F2FD;
 
 @import '_base.scss';
 @import '_app.scss';
 @import '_home.scss';
 @import '_responsive.scss';
+@import '_fullCalendar.scss';

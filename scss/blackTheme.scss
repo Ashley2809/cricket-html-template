@@ -7,15 +7,15 @@ $highlight-info: #f9690e;
 $body-color: #E6E6E6;
 $widget-background: #fff;
 $live-info: #d91e18;
-$test-color: #D1F1DA;
-$odi-color: #FEE1CF;
-$t20-color: #DDF4FA;
+$test-color: #ffebee;
+$odi-color: #fff9c4;
+$t20-color: #E3F2FD;
 $tab-border-color: #f1f1f1;
 
 @import '_base.scss';
 @import '_app.scss';
 @import '_home.scss';
-@import '_responsive.scss';
+@import '_fullCalendar.scss';
 
 .rca-medium-widget{
 	.rca-match-title,.rca-match-info, .rca-live-label{
@@ -24,10 +24,14 @@ $tab-border-color: #f1f1f1;
 }
 .rca-tab-list{
 	li{		
-		border-bottom: 4px solid transparent;
-		&:hover, &:focus,&.active{
-	        color: #d91e18;
-	        border-bottom-color:#d91e18;
-		}
+	    &:hover, &:focus, &.active{
+    		color: $live-info;
+    		border-bottom-color: $live-info;
+    	}
 	}
 }
+body{
+	background-color: transparent;
+}
+
+@import '_responsive.scss';
