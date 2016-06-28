@@ -631,11 +631,29 @@
 	}
 }
 
+.rca-stats-title{
+	text-align: center;
+  font-weight: 100;
+}
 //stats
 .rca-stats{
+
 	&.rca-micro-widget{
 		.rca-match-start{
 			border: none;
+
+		}
+		h2{
+				font-size: 78px;
+				font-weight: bold;
+			}
+	}
+	.rca-batting-score, .rca-bowling-score{
+		.rca-col{
+			width: 12%;
+			&.rca-player{
+				width: 20%;
+			}
 		}
 	}
 	.rca-match-start h3{
@@ -685,6 +703,9 @@
 	.rca-name-tag{
 		margin: 10px 0;
 		.rca-name-info{
+			width: 150px;
+		}
+		.rca-tag-info{
 			color: $secondary-info;
 		}
 		.rca-name-score{

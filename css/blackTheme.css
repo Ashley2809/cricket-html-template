@@ -655,8 +655,21 @@ button {
   .rca-squad-season > .rca-tab-list li.active {
     border-bottom-color: transparent; }
 
+.rca-stats-title {
+  text-align: center;
+  font-weight: 100; }
+
 .rca-stats.rca-micro-widget .rca-match-start {
   border: none; }
+
+.rca-stats.rca-micro-widget h2 {
+  font-size: 78px;
+  font-weight: bold; }
+
+.rca-stats .rca-batting-score .rca-col, .rca-stats .rca-bowling-score .rca-col {
+  width: 12%; }
+  .rca-stats .rca-batting-score .rca-col.rca-player, .rca-stats .rca-bowling-score .rca-col.rca-player {
+    width: 20%; }
 
 .rca-stats .rca-match-start h3 {
   font-size: 15px;
@@ -680,6 +693,8 @@ button {
 .rca-stats .rca-name-tag {
   margin: 10px 0; }
   .rca-stats .rca-name-tag .rca-name-info {
+    width: 150px; }
+  .rca-stats .rca-name-tag .rca-tag-info {
     color: #7d7d7d; }
   .rca-stats .rca-name-tag .rca-name-score {
     color: #f9690e;
