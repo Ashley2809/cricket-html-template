@@ -416,6 +416,9 @@
 
 .rca-batting-score,.rca-bowling-score{
 	border-bottom: 1px solid $body-color;
+	&.rca-no-border{
+		border-bottom: none;
+	}
 	h3{
 		font-size: 20px;
 		font-weight: 300;
@@ -625,5 +628,76 @@
 				border-bottom-color: transparent;
 			}
 		}
+	}
+}
+
+//stats
+.rca-stats{
+	&.rca-micro-widget{
+		.rca-match-start{
+			border: none;
+		}
+	}
+	.rca-match-start h3{
+		font-size: 15px;
+		font-weight: bold;
+		&.top-bowl{
+			background-color: $bowl-color;
+			color: #fff;
+		}
+		&.top-score{
+			background-color: $highlight-info;
+			color: #fff;
+		}
+		&.top-six{
+
+		}
+	}
+	h2{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+	}
+	.rca-match-start h2{
+		margin: 10px 0;
+	}
+	// .rca-name-tag{
+	// 	padding: 5px;
+	//   margin: 10px 7px 5px 0px;
+	//   border-radius: 3px;
+	//   display: inline-block;
+	//   &:last-child{
+	//   	margin-right: 0;
+	//   }
+	//   background-color: $tab-border-color;
+	//   &.rca-select{
+	//   	background-color: $theme-color;
+	//   	a{
+	//   		color: #fff;
+	//   	}
+	//   }
+ //  	font-size: 13px;
+ //    a{
+ //    	display: block;
+ //    }
+	// }
+	.rca-name-tag{
+		margin: 10px 0;
+		.rca-name-info{
+			color: $secondary-info;
+		}
+		.rca-name-score{
+			color: $highlight-info;
+			text-align: right;
+		}
+		.rca-table{
+			padding: 5px;
+			border-bottom: 1px solid $tab-border-color;
+			&:last-child{
+				border-bottom: none;
+			}
+		}
+		
 	}
 }
