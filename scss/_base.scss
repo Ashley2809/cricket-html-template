@@ -141,6 +141,17 @@ button{
 	background-color: $tab-text;
 	margin: 10px 0px;
 }
+.rca-menu-scroll{
+	min-width: 300px;
+	max-width: 100%;
+	height: 65px;
+	background-color: $tab-text;
+	margin: 10px 0px;
+	overflow-x: scroll;
+	.rca-season-list{
+		white-space: nowrap;
+	}
+}
 .rca-micro-widget{
 	min-width: 250px;
 	max-width: 100%;
