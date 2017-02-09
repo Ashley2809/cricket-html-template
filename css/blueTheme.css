@@ -185,6 +185,12 @@ button {
 .rca-no-border {
   border: none; }
 
+.rca-micro-widget .rca-bowler-info {
+  font-size: 16px; }
+
+.rca-micro-widget .rca-tab-list li {
+  font-size: 14px; }
+
 .rca-left-border {
   border-left: 5px solid #3F96F7; }
 
