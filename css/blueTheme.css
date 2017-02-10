@@ -395,7 +395,7 @@ button {
   position: relative; }
   .rca-score-status .rca-status-scroll {
     border-left: 3px solid #3F96F7;
-    line-height: 30px;
+    line-height: 20px;
     padding: 0px 10px; }
   .rca-score-status .rca-bullet-list {
     position: absolute;
