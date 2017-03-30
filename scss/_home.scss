@@ -24,10 +24,15 @@
     background-color: #fff;
     margin: 10px 0px;
     h3{
-    	border-bottom: 1px solid $live-info;
-    	margin: 0px 0 10px 0;
-	    padding-bottom: 5px;
+    	background-color: $live-info;
+    	padding: 5px 5px 5px 10px;
+    	color: #fff;
+    	margin: 0px;
     }
+  	img{
+  		margin-right: 15px;
+  		border-radius: 3px;
+  	}
 }
 .rca-post{
 	border-bottom: 1px solid $basic-info;
@@ -36,11 +41,15 @@
 		margin: 0;		
 	}
 	p{
-		margin: 5px 0;
+		margin: 15px 0 5px 0;
+		img{
+			margin-top: 5px;
+		}
 	}
 	.rca-post-info{
 		color: $basic-info;
-		font-size: 12px;
+		margin-top: 5px;
+		font-size: 13px;
 	}
 }
 
