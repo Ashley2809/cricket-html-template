@@ -47,6 +47,46 @@ button {
   border: none;
   outline: none; }
 
+.theme-btn {
+  color: #3F96F7;
+  border: 1px solid #3F96F7;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 7px 15px;
+  background: transparent;
+  transition: all 0.3s ease;
+  border-radius: 3px;
+  display: inline-block; }
+  .theme-btn:hover {
+    background: #3F96F7;
+    color: #fff; }
+
+.nav-back-btn {
+  color: #d91e18;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 7px 30px;
+  background: transparent;
+  transition: all 0.3s ease;
+  display: inline-block;
+  position: relative; }
+  .nav-back-btn:before {
+    top: 50%;
+    left: 10px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+    border-right-color: #d91e18;
+    border-width: 8px;
+    margin-top: -8px; }
+  .nav-back-btn:hover {
+    color: #d91e18;
+    text-decoration: underline; }
+
 .rca-row {
   margin: 0px;
   padding: 0px; }

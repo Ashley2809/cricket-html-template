@@ -51,6 +51,49 @@ button{
 	border: none;
 	outline: none;
 }
+.theme-btn{
+    color: $theme-color;
+    border: 1px solid $theme-color;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 7px 15px;
+    background: transparent;
+    transition: all 0.3s ease;
+    border-radius: 3px;
+    display: inline-block;
+    &:hover{
+    	background: $theme-color;
+    	color: #fff;
+    }
+}
+.nav-back-btn{
+	color: $live-info;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 7px 30px;
+  background: transparent;
+  transition: all 0.3s ease;
+  display: inline-block;
+  position: relative;
+  &:before{
+		top: 50%;
+		left: 10px;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: transparent;
+		border-right-color: $live-info;
+		border-width: 8px;
+		margin-top: -8px;
+  }
+  &:hover{
+  	color: $live-info;
+  	text-decoration: underline;
+  }
+}
 .rca-row{
 	margin: 0px;
 	padding: 0px;
