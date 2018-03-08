@@ -757,6 +757,18 @@ button {
     .rca-stats .rca-name-tag .rca-table:last-child {
       border-bottom: none; }
 
+.rca-ad-block {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  height: 90px;
+  display: block; }
+  .rca-ad-block.vertical-sm {
+    height: 150px; }
+  .rca-ad-block.vertical-lg {
+    height: 250px; }
+
 .rca-logo h2 {
   margin: 0px;
   padding: 20px 0px;

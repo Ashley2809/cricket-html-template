@@ -33,7 +33,7 @@ a {
   color: #4d4d4d;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #1eb848;
+    color: #002e6e;
     text-decoration: none; }
 
 ul {
@@ -48,8 +48,8 @@ button {
   outline: none; }
 
 .theme-btn {
-  color: #1eb848;
-  border: 1px solid #1eb848;
+  color: #002e6e;
+  border: 1px solid #002e6e;
   font-size: 14px;
   font-weight: 400;
   padding: 7px 15px;
@@ -58,7 +58,7 @@ button {
   border-radius: 3px;
   display: inline-block; }
   .theme-btn:hover {
-    background: #1eb848;
+    background: #002e6e;
     color: #fff; }
 
 .nav-back-btn {
@@ -183,13 +183,13 @@ button {
   color: #d91e18; }
 
 .rca-theme-text {
-  color: #1eb848; }
+  color: #002e6e; }
 
 .rca-basic-text {
   color: #b3b3b3; }
 
 .rca-highlight-text {
-  color: #f9690e; }
+  color: #00b9f2; }
 
 .rca-center {
   text-align: center; }
@@ -198,7 +198,7 @@ button {
   vertical-align: middle; }
   .rca-vs:before {
     border-radius: 50%;
-    background-color: #1eb848;
+    background-color: #002e6e;
     color: #fff;
     width: 30px;
     height: 30px;
@@ -231,10 +231,10 @@ button {
   font-size: 14px; }
 
 .rca-left-border {
-  border-left: 5px solid #1eb848; }
+  border-left: 5px solid #002e6e; }
 
 .rca-top-border {
-  border-top: 5px solid #1eb848; }
+  border-top: 5px solid #002e6e; }
 
 .rca-no-padding {
   padding: 0; }
@@ -317,7 +317,7 @@ button {
   font-size: 16px; }
 
 .rca-duration {
-  color: #f9690e;
+  color: #00b9f2;
   margin: 0px 0px 5px 0px; }
 
 .rca-tab-list {
@@ -332,7 +332,7 @@ button {
     display: inline-block;
     font-size: 16px;
     font-weight: bold;
-    color: #1eb848;
+    color: #002e6e;
     line-height: 28px;
     text-transform: uppercase;
     cursor: pointer;
@@ -343,7 +343,7 @@ button {
       padding: 5px 5px; }
     .rca-tab-list li:hover, .rca-tab-list li:focus, .rca-tab-list li.active {
       color: #4d4d4d;
-      border-bottom-color: #1eb848; }
+      border-bottom-color: #002e6e; }
 
 .rca-tab-content {
   display: none; }
@@ -358,7 +358,7 @@ button {
   .rca-inside-tab h2 {
     margin: 0px;
     padding: 15px 10px;
-    background-color: #1eb848;
+    background-color: #002e6e;
     color: #fff;
     font-size: 16px;
     cursor: pointer; }
@@ -385,7 +385,7 @@ button {
   color: #7d7d7d;
   padding-bottom: 10px; }
   .rca-batsman.striker {
-    color: #f9690e; }
+    color: #00b9f2; }
     .rca-batsman.striker::before {
       background: url(../images/player_1.png) no-repeat; }
   .rca-batsman::before {
@@ -418,7 +418,7 @@ button {
     .rca-ball-by li.w {
       background-color: #d91e18; }
     .rca-ball-by li.b4, .rca-ball-by li.b6 {
-      background-color: #1eb848; }
+      background-color: #002e6e; }
 
 .rca-bowler-info {
   color: #b3b3b3;
@@ -426,14 +426,14 @@ button {
   font-weight: 300;
   margin: 10px 0px; }
   .rca-bowler-info .rca-bolwing {
-    color: #f9690e; }
+    color: #00b9f2; }
 
 .rca-score-status {
   border-top: 1px solid #b3b3b3;
   padding-bottom: 0px;
   position: relative; }
   .rca-score-status .rca-status-scroll {
-    border-left: 3px solid #1eb848;
+    border-left: 3px solid #002e6e;
     line-height: 20px;
     padding: 0px 10px; }
   .rca-score-status .rca-bullet-list {
@@ -448,7 +448,7 @@ button {
       background-color: #b3b3b3;
       cursor: pointer; }
       .rca-score-status .rca-bullet-list li.active {
-        background-color: #1eb848; }
+        background-color: #002e6e; }
 
 .rca-schedule-widget > h2 {
   text-align: center;
@@ -461,7 +461,7 @@ button {
   .rca-schedule-widget .rca-schedule-top a {
     display: inline-block; }
     .rca-schedule-widget .rca-schedule-top a.active {
-      color: #1eb848; }
+      color: #002e6e; }
 
 .rca-schedule-date h4 {
   color: #7d7d7d;
@@ -489,7 +489,7 @@ button {
       .rca-schedule-detail h2 a .rca-match-time {
         color: #7d7d7d; }
       .rca-schedule-detail h2 a:hover .rca-team, .rca-schedule-detail h2 a:hover .rca-match-time, .rca-schedule-detail h2 a:focus .rca-team, .rca-schedule-detail h2 a:focus .rca-match-time {
-        color: #1eb848; }
+        color: #002e6e; }
   .rca-schedule-detail p {
     margin: 0px;
     color: #7d7d7d; }
@@ -582,7 +582,7 @@ button {
   border-bottom: 1px solid #E6E6E6; }
 
 .rca-switch {
-  color: #1eb848;
+  color: #002e6e;
   font-weight: 700; }
   .rca-switch span {
     display: inline-block;
@@ -591,15 +591,15 @@ button {
     .rca-switch span.active {
       color: #4d4d4d; }
   .rca-switch.filled {
-    border: 1px solid #1eb848;
+    border: 1px solid #002e6e;
     display: inline-block; }
     .rca-switch.filled span {
-      border-right: 1px solid #1eb848;
+      border-right: 1px solid #002e6e;
       padding: 10px 20px; }
       .rca-switch.filled span:last-child {
         border-right: none; }
       .rca-switch.filled span.active {
-        background-color: #1eb848;
+        background-color: #002e6e;
         color: #fff; }
 
 .rca-history-info {
@@ -638,7 +638,7 @@ button {
     line-height: 20px;
     font-weight: 300; }
     .rca-man-match h3 span, .rca-match-start h3 span {
-      color: #f9690e;
+      color: #00b9f2;
       margin-left: 7px; }
   .rca-man-match .rca-padding, .rca-match-start .rca-padding {
     padding: 10px 20px; }
@@ -646,7 +646,7 @@ button {
 .rca-match-start {
   text-align: center; }
   .rca-match-start h2 {
-    color: #f9690e;
+    color: #00b9f2;
     font-size: 30px;
     font-weight: 300; }
 
@@ -730,7 +730,7 @@ button {
     background-color: #602D91;
     color: #fff; }
   .rca-stats .rca-match-start h3.top-score {
-    background-color: #f9690e;
+    background-color: #00b9f2;
     color: #fff; }
 
 .rca-stats h2 {
@@ -749,7 +749,7 @@ button {
   .rca-stats .rca-name-tag .rca-tag-info {
     color: #7d7d7d; }
   .rca-stats .rca-name-tag .rca-name-score {
-    color: #f9690e;
+    color: #00b9f2;
     text-align: right; }
   .rca-stats .rca-name-tag .rca-table {
     padding: 5px;
@@ -862,3 +862,56 @@ button {
     float: left; }
   .rca-hide-desk {
     display: none !important; } }
+
+.fc-widget-header {
+  border: none !important;
+  border-bottom: 1px solid #E6E6E6 !important; }
+  .fc-widget-header td, .fc-widget-header th {
+    border: none;
+    width: 14%;
+    text-align: center;
+    color: #4d4d4d;
+    display: table-cell;
+    font-weight: 700;
+    padding: 10px 0px;
+    text-transform: uppercase; }
+
+.fc-widget-content {
+  border: none !important; }
+
+.fc-content-skeleton {
+  border: none !important;
+  border-bottom: 1px solid #E6E6E6;
+  min-height: 112px; }
+  .fc-content-skeleton table {
+    min-height: 112px; }
+  .fc-content-skeleton .fc-event-container {
+    padding: 0 5px !important;
+    font-size: 13px; }
+    .fc-content-skeleton .fc-event-container a {
+      border: none !important;
+      background-color: #ffebee !important;
+      padding: 5px;
+      margin: 2px 0px !important;
+      color: #7d7d7d; }
+      .fc-content-skeleton .fc-event-container a:hover, .fc-content-skeleton .fc-event-container a:focus {
+        color: #d91e18 !important; }
+        .fc-content-skeleton .fc-event-container a:hover .fc-time, .fc-content-skeleton .fc-event-container a:focus .fc-time {
+          color: #d91e18 !important; }
+        .fc-content-skeleton .fc-event-container a:hover .fc-title, .fc-content-skeleton .fc-event-container a:focus .fc-title {
+          color: #d91e18 !important; }
+    .fc-content-skeleton .fc-event-container .fc-content {
+      color: #7d7d7d;
+      font-size: 13px; }
+      .fc-content-skeleton .fc-event-container .fc-content .fc-time {
+        text-transform: lowercase; }
+      .fc-content-skeleton .fc-event-container .fc-content .fc-title {
+        color: #4d4d4d;
+        display: inline-block;
+        margin-left: 3px;
+        font-weight: bold; }
+
+.fc-ltr .fc-basic-view .fc-day-number {
+  text-align: left;
+  padding: 2px 5px;
+  font-size: 13px; }
