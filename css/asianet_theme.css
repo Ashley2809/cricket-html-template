@@ -154,21 +154,21 @@ button {
   max-width: 100%;
   min-height: 110px;
   background-color: #fff;
-  margin: 10px 0px; }
+  margin-bottom: 10px; }
 
 .rca-mini-widget {
   min-width: 300px;
   max-width: 100%;
   min-height: 360px;
   background-color: #fff;
-  margin: 10px 0px; }
+  margin-bottom: 10px; }
 
 .rca-medium-widget {
   min-width: 350px;
   max-width: 100%;
   min-height: 425px;
   background-color: #fff;
-  margin: 10px 0; }
+  margin-bottom: 10px; }
 
 .rca-relative {
   position: relative; }
@@ -887,6 +887,10 @@ button {
   text-align: left;
   padding: 2px 5px;
   font-size: 13px; }
+
+a:hover, a:focus {
+  color: #548AD7;
+  text-decoration: underline; }
 
 .rca-medium-widget .rca-match-title, .rca-medium-widget .rca-match-info, .rca-medium-widget .rca-live-label {
   text-align: left; }

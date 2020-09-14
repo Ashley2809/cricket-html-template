@@ -18,6 +18,12 @@ $bowl-color: #294c86;
 @import '_home.scss';
 @import '_fullCalendar.scss';
 
+a{
+	&:hover, &:focus{
+		color: #548AD7;
+		text-decoration: underline;
+	}
+}
 .rca-medium-widget{
 	.rca-match-title,.rca-match-info, .rca-live-label{
 		text-align: left;
